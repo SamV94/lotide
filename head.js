@@ -4,5 +4,12 @@ function assertEqual(actual, expected) {
   } else (console.log(`🔴🔴🔴Assertion Failed: ${actual} !== ${expected}!`))
 }
 
-assertEqual("Lighthouse labs", "Lighthouse labs");
-assertEqual(1, 2)
+let myArr = []
+
+function head(myArr) {
+  for (let i = 0; i < myArr.length; i++) {
+    
+  }console.log(myArr[0])
+}
+
+assertEqual(head(["Hello", "Lighthouse", "Labs"]))

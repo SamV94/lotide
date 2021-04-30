@@ -14,10 +14,4 @@ function eqArrays(firstArr, secondArr) {
 };
 
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
-
-
-
-
-
-
+assertEqual(eqArrays([1, 2, 3], [1, 4, 3]), true);
